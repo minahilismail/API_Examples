@@ -47,8 +47,6 @@ export default function RecipeForm() {
             </CardHeader>
             <CardContent>
               <img src={recipe.image} alt={recipe.title} className="w-full h-48 object-cover mb-2" />
-              <p>Ready in {recipe.readyInMinutes} minutes</p>
-              <p>Servings: {recipe.servings}</p>
             </CardContent>
           </Card>
         ))}
